@@ -13,7 +13,11 @@ package Bai_2;
 public class Main {
     public static void main(String[] args) {
 
-        MyStringBuilder myStringBuilder = new MyStringBuilder("Le Tan").addString(" Dat").addString(" 59.CNTT-2 ").addFloat(10f).addBoolean(true);
+        MyStringBuilder myStringBuilder = new MyStringBuilder("Le Tan")
+        .addString(" Dat")
+        .addString(" 59.CNTT-2 ")
+        .addFloat(10f)
+        .addBoolean(true);
         
         System.out.println(myStringBuilder.toString());
     }
