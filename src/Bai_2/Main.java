@@ -10,8 +10,10 @@ package Bai_2;
  * @author Con Meo Cutee
  */
   
-public class Main {
-    public static void main(String[] args) {
+public class Main 
+{
+    public static void main(String[] args) 
+    {
 
         MyStringBuilder myStringBuilder = new MyStringBuilder("Le Tan")
         .addString(" Dat")

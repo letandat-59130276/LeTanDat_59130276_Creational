@@ -9,16 +9,20 @@ package Bai_1;
  *
  * @author Con Meo Cutee
  */
-public class HoaDonHeader {
+public class HoaDonHeader 
+{
     String maHD, ngayBan, tenKhachHang;
 
-    public HoaDonHeader(String maHD, String ngayBan, String tenKhachHang){
+    public HoaDonHeader(String maHD, String ngayBan, String tenKhachHang)
+    {
         this.maHD = maHD;
         this.ngayBan = ngayBan;
         this.tenKhachHang = tenKhachHang;
     }
+    
     @Override
-    public String toString(){
+    public String toString()
+    {
         return "Ma hoa don:  " + maHD + " _ Ngay ban: " + ngayBan + " _ Ten khach hang: " + tenKhachHang + "\n";
     }
 }
