@@ -9,13 +9,12 @@ package Bai_2;
  *
  * @author Con Meo Cutee
  */
+  
 public class Main {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+
+        MyStringBuilder myStringBuilder = new MyStringBuilder("Le Tan").addString(" Dat").addString(" 59.CNTT-2 ").addFloat(10f).addBoolean(true);
+        
+        System.out.println(myStringBuilder.toString());
     }
-    
 }
