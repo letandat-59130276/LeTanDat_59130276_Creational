@@ -9,13 +9,19 @@ package Bai_3;
  *
  * @author Con Meo Cutee
  */
-public class Main {
+public class Main 
+{
+    public static void main(String[] args) 
+    {
+        ShapeFactory sf = new ShapeFactory();
+        
+        Shape SR = sf.createShape(ShapeType.Rectangle);
+        Shape SC = sf.createShape(ShapeType.Circle);
+        Shape ST = sf.createShape(ShapeType.Triangle);
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.println(SR.draw());
+        System.out.println(SC.draw());
+        System.out.println(ST.draw());
     }
-    
 }
+

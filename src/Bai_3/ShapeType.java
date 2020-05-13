@@ -9,6 +9,7 @@ package Bai_3;
  *
  * @author Con Meo Cutee
  */
-public class ShapeType {
-    
+public enum ShapeType 
+{
+    Rectangle, Triangle, Circle;
 }
